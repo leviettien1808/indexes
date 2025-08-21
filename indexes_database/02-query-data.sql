@@ -1,0 +1,11 @@
+-- MySQL/Postgres
+EXPLAIN ANALYZE
+SELECT *
+FROM users
+WHERE salary > 12000;
+
+-- SQLite
+EXPLAIN QUERY PLAN
+SELECT *
+FROM users
+WHERE salary > 12000;
